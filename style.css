@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #6F6AF7;
+  color: white;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  font-family: "Delius Unicase", cursive;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-left: 32px;
+}
+
+li {
+  list-style: none;
+  font-family: 'Dm sans';
+}
+
+ul {
+  display: flex;
+  font-size: 1.4rem;
+  gap: 4rem;
+  margin-left: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  margin-right: 60px;
+}
+
+.input input {
+  height: 2.5rem;
+  width: 15rem;
+  margin-right: 5rem;
+  border-radius: 3.5rem;
+  font-size: 1rem;
+  padding-left: 20px;
+  font-weight: 400;
+  background-image: url("search.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 200px center;
+}
+
+
+.image img {
+  margin-right: 4rem;
+  height: 27px;
+  width: 50px;
+
+}
+
+.Midpart {
+  height: calc(190vh - 120px);
+  margin-left: 70px;
+}
+
+.container {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 50px;
+}
+
+#image1 {
+  width: 20vw;
+  height: 47vh;
+  margin-left: 50px;
+  margin-right: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 9px 31px 0px;
+  border-radius: 12px;
+}
+
+#image2::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1pX;
+  line-height: 20px;
+  padding: 20px;
+  color: #6F7373;
+  font-family: "DM Sans";
+
+}
+
+#image2 {
+  width: 840px;
+  height: 330px;
+  background-color: #e5d8ff;
+  text-align: start;
+  margin: 70px;
+  border-radius: 2%;
+
+}
+
+.Container2 {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  color: white;
+  text-align: start;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  margin-left: 3.2rem;
+  gap: 6rem;
+  justify-content: space-evenly;
+}
+
+.Container2 div {
+  height: 90px;
+  width: 200px;
+  border-radius: 11px;
+  padding-left: 12px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+
+}
+
+#Box1,
+#Box2,
+#Box3,
+#Box4 {
+  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+#Box1 {
+  background-color: #929DFF;
+
+}
+
+#Box2 {
+  background-color: #734CF2;
+}
+
+#Box3 {
+  background-color: #D288FF;
+}
+
+#Box4 {
+  background-color: #000;
+}
+
+.checkout {
+  width: 82vw;
+  height: 70vh;
+  background-color: #483EFF;
+  margin-left: 100px;
+  display: flex;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#left {
+  display: flex;
+  height: 66vh;
+  width: 24vw;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #483eff;
+  flex-wrap: wrap;
+}
+
+#left button {
+  height: 12.5vh;
+  width: 19vw;
+  border-radius: 1.2rem;
+  letter-spacing: 2.5px;
+  font-family: "DM Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  font-size: 1.34rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  line-height: 1.5rem;
+  background-color: rgb(72, 62, 255);
+}
+
+#left .button1 {
+  color: #000;
+  background-color: #bce0f6;
+  font-weight: 900;
+  box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+  border: none;
+}
+
+#right {
+  width: 56.5vw;
+  height: 64vh;
+  color: #000;
+  background-color: #fff;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#right h2 {
+  padding-left: 2.5rem;
+  font-size: 2.2rem;
+  font-family: "inter", sans-serif;
+  padding-bottom: 2.1rem;
+  font-weight: 700;
+  color: #04285a;
+}
+
+#right b {
+  font-size: 20px;
+  padding-left: 3.5rem;
+}
+
+#right p {
+  font-size: 20px;
+  padding-left: 4rem;
+  font-size: 1.2rem;
+}
+
+#right button {
+  background-color: black;
+  color: white;
+  height: 49px;
+  width: 135px;
+  background-image: url(Arrow\ 1.svg);
+  background-position: 5rem, center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  margin-left: 700px;
+  margin-top: 60px;
+  padding-right: 40px;
+}
+
+.chat img {
+  position: fixed;
+  bottom: 0;
+  right: 4rem;
+  height: 145px;
+}
+
+.social {
+  float: right;
+  display: flex;
+  position: sticky;
+  bottom: 48%;
+  flex-direction: column;
+}
+
+.whatsapp{
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 8px;
+}
